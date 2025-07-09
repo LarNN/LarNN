@@ -14,7 +14,7 @@ async def on_ready():
 
 @bot.command()
 async def selam(ctx):
-    await ctx.send("Selam Musamert! 👋")
+    await ctx.send("Selam Kraliçem! 👋")
 
 @bot.command()
 async def atla(ctx):
