@@ -15,5 +15,9 @@ async def on_ready():
 async def selam(ctx):
     await ctx.send("Selam Musamert! 👋")
 
-token = os.getenv("TOKEN")
-bot.run(token)
+@bot.command()
+async def atla(ctx):
+    await ctx.send("Atla komutu çalıştı! ⏭️")
+
+bot.run(os.getenv("TOKEN"))
+
