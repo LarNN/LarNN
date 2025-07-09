@@ -15,5 +15,5 @@ async def on_ready():
 async def selam(ctx):
     await ctx.send("Selam Musamert! 👋")
 
-token = os.getenv("MTM5MjQ5OTU2NzY4NTAxMzU3Ng.GEfvFf.XD8RqiSTYtD1Mp2dTHgEi67DDXqATkAzoQeTE4")
+token = os.getenv("")
 bot.run(token)
